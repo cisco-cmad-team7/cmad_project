@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: management_system
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: parmeshashwath
+Implementation-Vendor-Id: org.cisco.cmad
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/management_system
+Created-By: Maven Integration for Eclipse
+
