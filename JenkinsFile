@@ -3,12 +3,7 @@ pipeline{
     agent none
 
     stages{
-        stage('install docker')
-        {
-        steps{
-        sh './docker_install.sh'
-        }
-        }
+      
         stage('build'){
             agent{
               docker{
