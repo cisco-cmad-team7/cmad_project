@@ -50,7 +50,7 @@ pipeline{
             steps{
               echo 'Packaging worker app with docker'
               script{
-                docker.withRegistry('https://index.docker.io/v1/', 'docker') {
+                docker.withRegistry('https://index.docker.io/v1/', 'DOCKER') {
                     def workerImage = docker.build("cmad/backend:v${env.BUILD_ID}", "./worker")
                     workerImage.push()
                     workerImage.push("latest")
